@@ -1,0 +1,434 @@
+01 
+Generic Product
+These are standalone systems that are produced by a development organization and sold on the open market to any customer who is able to buy them.
+Customized product
+These are systems that are commissioned by a particular customer.
+11
+Standalone Application
+These are application systems that run on local computer such as PC.
+Batch Processing System
+These are business systems that are designed to process data in large batches.
+Systems of system
+These are composed of a number of other software systems.
+Software Engineering is an engineering discipline that is concerned with all aspects of software
+W
+29
+production
+Waterfall Model
+This takes the fundamental process activities of specification, development, validation and evolution and
+represent as separate process phases.
+Incremental Development
+The system is developed as a series of versions with each version of development and validation.
+53
+Requirement Engineering is the process of developing a software specification.
+Software validation is the process of checking that the system conforms to its specification and that meets
+the real needs of the users of the system.
+Software evolution takes place when you change existing software system to meet new requirements. The Rational unified Process is a modern generic process model that is organized into inception, elaboration, constitution and transition.
+143
+The goal of the requirements engineering process is to create and maintain a system requirements document.
+Requirement engineering should start with feasibility that is useful to business.
+166
+Requirement validation is the process of checking the requirement for validity, consistency,
+completeness, realism and verifiability.
+The requirement management processes include management planning and change management.
+Software design
+Implementation
+Design a software structure that realises the specification;
+Translate this structure into an executable program;
+Architectural design, where you identify the overall structure of the system
+Component design, where you take each system component and design how it will operate. Database design, where you design the system data structures and how these are to be represented in a database
+Software evolution takes place when you change existing software systems to meet new requirements
+Software processes are the activities involved in producing a software system.
+
+
+
+
+CH-1
+1. Two kinds of software products: 
+Generic products: These are stand-alone systems that are produced by a 
+development organization and sold on the open market to any customer 
+who is able to buy them
+Customized (or bespoke) products: These are systems that are 
+commissioned by a particular customer. A software contractor develops the 
+software especially for that customer.
+2. Four Fundamental
+1. Software specification, where customers and engineers define the 
+software that is to be produced and the constraints on its operation.
+2. Software development, where the software is designed and programmed. 
+3. Software validation, where the software is checked to ensure that it is 
+what the customer requires.
+4. Software evolution, where the software is modified to reflect changing 
+customer and market requirements.
+3. Software engineering ethics
+1. Confidentially : You should normally respect the confidentiality of your 
+employers or clients irrespective of whether or not a formal confidentiality 
+agreement has been signed.
+2. Competence : You should not misrepresent your level of competence. 
+3. Intellectual property rights You should be aware of local laws governing 
+the use of intellectual property such as patents and copyrights.
+4. Computer misuse : You should not use your technical skills to misuse 
+other people’s computers.
+Ch2
+1. Software process models
+1. The waterfall model This take the fundamental process activities of 
+specification, development, validation and evolution and represents them 
+as separate process phases such as requirements specification, software 
+design, implementation, testing and so on.
+2. Incremental development this approach interleaves the activities of 
+specification, development, and validation. 
+3. Reuse-oriented software engineering This approach is based on the 
+existence of a significant number of reusable components.
+The Waterfall model
+The Waterfall model
+1. Requirement analysis and definition The system’s services, constraints and 
+goals are established by consultation with system users.
+2. System and software design The system design process allocates the 
+requirements to either hardware or software systems by establishing an 
+overall system architecture.
+3. Implementation and unit testing During this stage, the software design is 
+realized as a set of programs or program units.
+4. Integration and system testing The individual program units or programs are 
+integrated and tested as a complete system to ensure that the software 
+requirements have been met.
+5. Operation and maintenance Normally, this is the longest life cycle phase. The 
+system is installed and put into practical use.
+2. Incremental development
+Incremental development
+1. The cost of accommodating changing customer requirements is reduced.
+2. It is easier to get customer feedback on the development work that has been 
+done.
+3. More rapid delivery and deployment of useful software to the customer is 
+possible, even if all of the functionality has not been included.
+3. The requirements engineering process
+1.Feasibility study : An estimate is made of whether the identified users needs 
+may be satisfied using current software and hardware technologies.
+2.Requirements elicitation and analysis : This is the process of deriving the 
+system requirements through observation of existing systems, discussions with 
+potential users and procurers, task analysis, and so on.
+3.Requirements specification : Requirements specification is the activity of 
+translating the information gathered during the analysis activity into a document 
+that defines a set of requirements. Two types of requirements may be included in 
+this documents.
+4. Requirements validation : This activity checks the requirements for realism, 
+consistency, and completeness.
+The requirements engineering process
+4. Prototyping
+A prototype is an initial version of a software system that is used to 
+demonstrate concepts.
+1. In the requirement engineering process, a prototype can help with the 
+elicitation and verification of system requirement.
+2. In the system design process, a prototype can be used to explore particular 
+software solutions and to support user interface design.
+System prototypes allow user to see how well the system supports their work.
+They may get new ideas for requirements, and find area of strength and 
+weakness in the software. A system prototype may be used while the system is 
+being designed to carry out design experiments to check the feasibility of a 
+proposed design.
+The process of prototype development
+5. Incremental delivery
+1. Customers can use the early increments as protypes and gain experience 
+that informs their requirements for later system increments.
+2. Customers do not have to wait until the entire system is delivered before 
+they can gain value from it.
+3. The process maintains the benefits of incremental development in that it 
+should be relatively easy to incorporate changes into the system.
+4. As the highest-priority services are delivered first and increments then 
+integrated, the most important system services receive the most testing.
+Ch-7
+1. Requirements elicitation and analysis 
+1. Stakeholders often don’t know what they want from the computer system 
+except in the most general terms.
+2. Stakeholders naturally express requirements in their own terms and will 
+implicit knowledge of their own work.
+3. Different stakeholders have different requirements, which they may express 
+in different ways.
+4. Political factors may influence the requirements of the system.
+5. The economic and business environment in which the analysis takes place 
+is dynamic.
+The Requirements elicitation and analysis
+The process activities are :
+1. Requirements discovery : This is the process of interacting with stakeholders 
+in the system to collect their requirements.
+2. Requirements classification and organization : This activity takes the 
+unstructured collection of requirements, groups related requirements and 
+organizes them into coherent clusters.
+3. Requirements prioritization and negotiation : Inevitably, where multiple 
+stakeholders are involved, requirements will conflict.
+4. Requirements documentation : The requirements are documented and input in 
+the next round of the spiral.
+
+04
+1.	To build a database, a framework is defined and which is called a data model. 
+2.	A series of database design processes is called data modeling.
+3.	A data set structured based on the hierarchical data model is called the hierarchical database.
+4.	In the hierarchical data model, root is the highest-level data.
+5.	In the hierarchical data model, data retrieval begins from the root.
+6.	In the hierarchical data model, the relationship of root-node and node-leaf is parent and child.
+7.	A data set integrated and based on the network data model is called a network database.
+8.	In the relational data model, a table consists of rows and columns.
+9.	In the relational data model, a table is called a relation, a row a tuple, and a column an attribute.
+10.	As for data modeling, ANSI-SPARC proposed the 3-tier schema in 1978.
+11.	In the 3-tier schema, the basic structure of the database system is layered into three schemata.
+12.	The conceptual schema logically defines from its own viewpoint without taking into consideration the characteristics of computers and programs.
+13.	The external schema defines the database from the viewpoint of the program using the database.
+14.	In the database modeling, the word schema means database description.
+15.	In the representative set operations, union is called sum.
+16.	In the representative set operations, intersection is called product.
+17.	In the representative set operations, Cartesian product is used to create a table by combining tuples in the tables.
+18.	In the relational operations, selection extracts only the rows.
+19.	In the relational operations, projection extracts only the columns.
+20.	In the relational operations, join is used to create a new table by extracting the necessary columns from the multiple tables.
+21.	In database design technique, Entity-Relationship modeling is a top-down approach.
+22.	Entity type is a group of objects with the same properties.
+23.	Entity occurrence is a uniquely identifiable object of an entity type.
+24.	Relationship type is a set of meaningful association among entity types.
+25.	Relationship occurrence is a uniquely identifiable association that includes one occurrence from each participating entity type.
+26.	The degree of the relationship type is the number of participating entity types in a relationship.
+27.	An attribute is a property of an entity or a relationship type.
+28.	An attribute domain is the set of allowable values for one or more attributes.
+29.	A simple attribute is composed of a single component with an independent existence.
+30.	A composite attribute is composed of multiple components each with an independent existence.
+31.	A single-valued attribute holds a single value for each occurrence of an entity type.
+32.	A multi-valued attribute holds multiple values for each occurrence of and entity type.
+33.	A derived attribute represents a value that is derivable from the value of a related attribute or set of attributes, not necessarily in the same entity.
+34.	A candidate key is the minimal set of attributes that uniquely identifies each occurrence of an entity type.
+35.	A primary key is the candidate key that is selected to uniquely identify each occurrence of and entity type.
+36.	Normalization is a technique for producing a set of relations with desirable properties, given the data requirements of an enterprise.
+37.	A major aim of relational database design is to group attributes into relations to minimize data redundancy.
+38.	Query means reading the data in tables.
+39.	Query processing use DISTINCT to eliminate the duplicate data.
+40.	The logical operator also called the Boolean operator.
+
+
+1.File-Based System 
+
+1.Sales managemnt system
+2.Sales managemnt program
+3.File definition part
+4.leveatory management program
+5.leveatory management program
+6.File definition part
+7.Sales data
+8.Merchandise data
+9.Merchandise data
+10.Inventory data
+11.Sales management file
+12.Inventory management file
+13.Duplication
+
+(b)Concept of Database
+
+1.Sales Management System
+2.Sales Mangement Program
+3.Inventory Management System
+4.Inventory Management Program
+5.Database
+6.Sales data
+7.Merchandise Data
+8.Inventory Data
+9.Other data
+10.Other programs
+
+(c) Purpose and Function of database 
+To solve problem of file-based systems, the following measures are 
+required: 
+- To eliminate duplicate of data items in the related files. 
+- To maintain strict consistency of file contents 
+- To make programs independent of files 
+(d) Function of database 
+Data sharing 
+By centrally managing files used in an organization data maintenance 
+workload is reduced and data consistency can be maintained. 
+Data independent of program 
+By making programs independent of centrally managed databases, program 
+maintenance and modification are become easier. 
+Data integrity and failure recovery 
+Data integrity must be guaranteed even in the case of supporting a large 
+number of user access, and fast recovery must be made in case of failures. 
+Data confidentiality 
+Depending on the data contents, access right control is required to allow 
+access only by authorized users.
+
+2. Degree of relationship Type 
+The number of participating entity types in a relationship. The degree of a 
+relationship indicates the number of entity types involved in a relationship. 
+A relationship of degree two is called binary.
+
+Private owner owns property for rent
+PrivateOwner POwns PropertyForRent
+An example of a binary relationship called POwns.
+
+A relationship of degree three is called ternary.
+Diagram:
+Staff Registers Branch
+Client
+Staff registers a client at a branch
+An example of a ternary-relationship called Registers.
+
+A relationship of degree three is called ternary. 
+Slicitor
+Buyer Arranges FinancialInstitution
+Bid
+A solicitor arranges a bid on behalf of a buyer supported by a financial instituion
+An example of a quaternary relationship called Arranges.
+
+3.(a) Attribute
+Attribute is a property of an entity or a relationship type. For example, a 
+staff entity may be described by the staffNo., name, position, and salary 
+attributes.
+(b) Classified the Simple and Composite Attributes
+1. Simple attribute
+2. Single-valued attribute
+3. Multi-valued attribute
+4. Derived attribute
+(c) Diagrammatic representation of attributes
+ If an entity type is to be displayed with its attributes, we divide the 
+rectangle representing the entity in two. The upper part of the rectangle 
+displayed the name of the entity and the lower part lists the name of the 
+attributes.
+ The first attributes to be listed is the primary key of the entity type, if 
+known. The name of the primary key attributes can be labeled with the tag 
+{PK}. The name of an attribute is displayed with the first letters is 
+lowercase and, if the name has more than one word, with the first letters of 
+each subsequent word in uppercase.
+ For simple, single-valued attributes, there is no need to use tags, so we 
+simply displayed the attributes names in a list below the entity name. For 
+composite attributes, we list the name of composite attributes followed 
+below and indented to the right by the names of its simple component 
+attributes. For multivalued attributes, we label the attribute name with an 
+indication of the range[1…*].
+ For derived attributes, we prefix the attributes name with a “/”. s
+Diagram:
+1.Primary Key
+2.Area to list attributes
+3.Staff staffNo(PK) Name position salary TotalStaff
+4.Manages
+5.Has
+6.Branch branchNo(PK) address street city postcode telNo(1..3) 
+7.Derived Attribute
+8.Multi-valued attribute 
+9.Composite Attribute
+Diagrammatic representation of Staff and Branch entities and their 
+attributes
+
+
+
+1. Attributes
+ A property of an entity or a relationship type.
+For example, a Staff entity type may be described by the staffNo, name, 
+position, and salary attributes.
+2. Simple attribute
+An attribute composed of a single component with an independent 
+existence.
+Examples of simple attributes include position and salary of the staff 
+entity.
+3. Single-valued attribute
+An attribute that holds a single value for each occurrence of an entity 
+type.
+For example, each occurrence of the Branch entity type has a single 
+value for the branch number (branchNo) attribute.
+4. Derived Attributes
+An attribute that represents a value that is derivable from the value of 
+a related attribute or set of attributes, not necessarily in the same 
+entity type.
+For example, the total number of staff (totalStaff) attribute of the Staff 
+entity type can be calculated by counting the total number of Staff 
+entity occurrences.
+Normalization
+The main objective is to create an accurate representation of the data, 
+relationships between the data, and constraints on the data that is pertinent to the 
+enterprise. To achieve this objective, can use one or more database design 
+techniques. A technique called ER modeling and another database design 
+technique called normalization.
+The Purpose of Normalization
+Normalization
+A technique for producing a set of relations with desirable properties, given 
+the data requirements of an enterprise. The characteristics of a suitable set of 
+relations include the following.
+• The minimal number of attributes necessary to support the data 
+requirements of the enterprise.
+• Attributes with a close logical relationship 
+• Minimal redundancy
+The benefits of using a database that has a suitable set of relations is 
+that database will be easier for the user to access and maintain the 
+data, and take any minimal storage space on the computer.
+How Normalization Supports Database Design
+Normalization is a format technique that can be used at any stage of 
+database design. There are two main approaches for using normalization. Approach 
+1 shows how normalization can be used as a bottom-up standalone database design 
+technique, and Approach 2 shows how normalization can be used as a validation 
+technique to check the structure of relations, using a top-down approach such as 
+ER modeling. The goal is the same: creating a set of well-designed relations that 
+meet the data requirements of the enterprise.
+Examples show the data resources that can be used for database design. The 
+same data source can be used for both approaches. The approach taken is likely to 
+be determined by the size, extent and complexity of the database being described 
+by the data sources and by the preference and expertise of the database designer
+
+
+Maths
+Bisection
+**If start with solve or anything
+sheet မှာ bisection ရေး
+formula write
+absolute error x(new+1)-x(new)=0
+**If Find a root,
+Find Interval
+Here,root lies
+approximate root of an equation using
+bisection method is
+***table
+
+False Position Method
+Find Interval
+Here,Root lise
+1st Iteration, Formula, x(r)=x(u).f(xu)(x(l)-x(u))/f(xl)-f(xu)
+f(xr)=f()= <0
+Absolute Error
+e = 0.0001
+Approximate root of the equation by using False Positon Method is.
+After 4th iteration
+***table
+
+Jocobi
+Rearrange question to calculate
+solution by Jocobi Method
+From above Equation
+**Not add k (+1)
+
+Secant 
+Find Interval
+x(0)=  ,x(1)=  ,f(x0)=  ,f(x1)= 
+Find x2,Find f(x2)
+Formula = x(0)-f(x0)*((x1)-(x0))/f(x1)-f(x0)
+Absolute error (=0)
+
+Gauss-Seidel
+Rearrange question to calculate
+**Add K (+1)
+
+Cramer Rule
+***** (-) before (+)
+1.Confactor Method
+AX=B
+Find |A| 
+Cij = (-1)i+j Mij
+adj A
+A(-1) = 1/|A|*adj A
+X = A(-1)B
+2.Find A,|A(1)|,|A(2)|,|A(3)|
+x(1)=|A(1)|/|A|
+
+Gaussian Elimination
+A=  ,B=  ,X=   
+[A|B] = , *** keep 3
+
+Gauss-Jordan
+*** equal 3
+
+Linear Programming
+x(i) > for all i=1,2
+Inequalities,
+corresponding equation,
+co-ordinate of x intercepts,
+co-ordinate of y intercepts
